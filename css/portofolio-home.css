@@ -1,0 +1,465 @@
+@charset "utf-8";
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;
+ }
+
+/*네비*/
+
+
+.nav{
+    width: 250px;
+    max-width: 900px;
+    height: 1080px;
+    background-color: #0000cc;
+    z-index: 30;
+    max-width: 100%;
+    position: fixed;
+}
+
+.nav .item{
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    padding: 30px;
+    padding-top: 50px;
+    left: 60px;
+    max-width: 100%;
+}
+.nav .item img{
+    
+    width: 70px;
+}
+.nav .nav-bar ul li{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    line-height: 4.6042vw;
+    position: relative;
+    top: 190px;
+}
+
+.nav .nav-bar ul li a{
+    font-family: 'Frank Ruhl Libre', serif;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 21px;
+    line-height: 80px;
+    letter-spacing: 1px;
+    
+}
+
+.nav .nav-bar ul li:hover a{
+    font-size: 23px;
+    text-shadow: 3px 3px 1rem #6098FF ;
+}
+/*버튼*/
+.btn::before{
+    box-shadow:   0 0 17px #fff, 0 0 13px #fff, 0 0 10px #fff, 0 0 7px #fff ;
+    content: "";
+    position: absolute;
+    bottom: 30%;
+    left: 60px;
+    width: 130px;
+    height: 1px;
+    background: #6098FF;
+    display: block;
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transition: transform 0.4s cubix-bezier(1, 0, 0, 1);
+    transition: transform 0.4s cubic-bezier(1, 0, 0, 1);
+}
+
+.btn:hover::before{
+   
+    -webkit-transform-origon: right top;
+    -ms-transform-origin: right top;
+    tranform-origin: fight top;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1,1);
+}
+/*버튼*/
+
+
+/*메세지*/
+
+.nav .message ul li{
+    box-sizing: border-box;
+    width: 30px;
+    padding-top: 330px;
+    width: 100%;
+    padding-left: 95px;
+    max-width: 100%;
+    margin: 0 auto;
+    
+   
+}
+.nav .message ul li img{
+    max-width: 100%;
+    margin: 0 auto;
+    width: 50px;
+    object-fit:cover;
+}
+
+
+/*메세지*/
+
+/*메인*/
+/*메인*/.home
+{background-color: #cccccc;
+position: relative}
+
+
+/*네비*/
+body{background-color: #cccccc;
+max-width: 100%;
+width: 1920px;
+height: 1080px;}
+
+.box1{width: 30%;
+    height: 1080px;
+    border-right: 1px solid rgb(255, 255, 255);
+    display: inline-block;
+    margin-right: -5px;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    z-index: -1;
+
+}
+.box2{width: 30%;
+    height: 1080px;
+    border-right: 1px solid rgb(255, 255, 255);
+    display: inline-block;
+    margin-right: -5px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: 30%;
+    
+}
+.box3{
+    width: 30%;
+    height: 1080px;
+    border-right: 1px solid rgb(255, 255, 255);
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: 50%;
+   
+}
+
+.font{
+    font-size: 5rem;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.font p::after{
+    color: rgba(255,0,0,0.7);
+    animation: animateRed 2s infinite ease alternate;
+}
+.font p::before{
+    color: rgba(0,0,255,0.7);
+    animation: animateBlue 2s infinite ease alternate;
+}
+.font p{
+    position: absolute;
+    float: left;
+    padding: 1px;
+    font-size: 3.6875vw;
+    font-weight: bodl;
+    color: #0000cc;
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    display: inline-block;
+}
+.font p:nth-child(1){
+    top:15%; 
+    left: 30%;
+    float: left;
+    
+}
+.font p:nth-child(3){
+  float: left;
+   top: 15%;
+   left: 43%;
+}
+.font p:nth-child(4){
+    top: 15%;
+    left: 39%;
+}
+
+.font p:nth-child(5){
+    top: 30%;
+    left: 40%;
+}
+.font p:nth-child(6){
+    top: 27%;
+    left: 50%;
+}
+.font p:nth-child(7){
+    top: 25%;
+    left: 55%;
+}
+.font p:nth-child(8){
+    top: 40%;
+    left: 60%;
+    -webkit-transform:scale(2,1);
+    -moz-transform:scale(2,1);
+    -ms-transform:scale(2,1);
+    -o-transform:scale(2,1);
+    transform:scale(2,1);
+
+}
+.font p:nth-child(9){
+    top: 45%;
+    left: 70%;
+}
+.font p:nth-child(10){
+    top: 50%;
+    left: 80%;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+@keyframes animateRed{
+    0% {}
+    100% { transform: scale(1.2, 1.2)}
+}
+@keyframes animateGreen{
+    0% {transform: translate( 0, 0);}
+    100% {transform: translate( 10px, 10px) scale(1.2,1.2) skewX(-2deg);}
+}
+
+@keyframes animateBlue{
+    0% {transform: translate(0, 0)}
+    100% {transform: translate(0, 10px) scale(1.2, 1.2);}
+}
+
+/*볼*/
+
+.boll .item{
+    max-width: 100%;
+    width: 3.02962962962963vw;
+    height: 3.02962962962963vw;
+    background-color: #0000cc;
+    border-radius: 50%;
+    z-index: -1;
+}
+.boll .item:nth-child(1){
+    position: absolute;
+    top: 18%;
+    left: 34%;
+}
+
+.boll .item:nth-child(2){
+    position: absolute;
+    top: 31.5%;
+    left: 44%;
+    
+}
+.boll .item:nth-child(3){
+    position: absolute;
+    top: 15%;
+    left: 72%;
+}
+.boll .item:nth-child(4){
+    position: absolute;
+    top: 15%;
+    left: 79%;
+}
+.boll .item:nth-child(5){
+    position: absolute;
+    top: 25%;
+    left: 88%;
+}
+.boll .item:nth-child(6){
+    position: absolute;
+    top: 44%;
+    left: 50%;
+}
+.boll .item:nth-child(7){
+    position: absolute;
+    top: 43%;
+    left: 64%;
+}
+.boll .item:nth-child(8){
+    position: absolute;
+    top: 59%;
+    left: 42%;
+}
+.boll .item:nth-child(9){
+    position: absolute;
+    top: 59%;
+    left: 34%;
+}
+.boll .item:nth-child(10){
+    position: absolute;
+    top: 51.5%;
+    left: 83%;
+}
+/*볼*/
+/*볼효과*/
+.boll2 .item{
+    max-width: 100%;
+    width: 3.12962962962963vw;
+    height: 3.12962962962963vw;
+    background-color: #0000cc;
+    mix-blend-mode: color-dodge;
+    border-radius: 50%;
+    z-index: 1;
+    animation-name: text-shake;
+        animation-duration: 9s, 9s;
+        animation-timing-function: linear, ease-in-out;
+        animation-iteration-count: infinite, infinite;
+        animation-play-state: running, running;
+}
+.boll2 .item:nth-child(1){
+    position: absolute;
+    top: 18%;
+    left: 34.2%;
+}
+
+.boll2 .item:nth-child(2){
+    position: absolute;
+    top: 31.5%;
+    left: 44.2%;
+    
+}
+.boll2 .item:nth-child(3){
+    position: absolute;
+    top: 15%;
+    left: 72.2%;
+}
+.boll2 .item:nth-child(4){
+    position: absolute;
+    top: 15%;
+    left: 79.2%;
+}
+.boll2 .item:nth-child(5){
+    position: absolute;
+    top: 25%;
+    left: 88.2%;
+}
+.boll2 .item:nth-child(6){
+    position: absolute;
+    top: 44%;
+    left: 50.2%;
+}
+.boll2 .item:nth-child(7){
+    position: absolute;
+    top: 43%;
+    left: 64.2%;
+}
+.boll2 .item:nth-child(8){
+    position: absolute;
+    top: 59%;
+    left: 42.2%;
+}
+.boll2 .item:nth-child(9){
+    position: absolute;
+    top: 59%;
+    left: 34.2%;
+}
+.boll2 .item:nth-child(10){
+    position: absolute;
+    top: 51.5%;
+    left: 83%;
+}
+/*볼효과*/
+/*볼효과2*/
+.boll3 .item{
+    max-width: 100%;
+    width: 3.02962962962963vw;
+    height: 3.02962962962963vw;
+    background-color: #0000cc;
+    opacity: 0.3;
+    border-radius: 50%;
+    animation-name: text-shake;
+        animation-duration: 9s, 9s;
+        animation-timing-function: linear, ease-in-out;
+        animation-iteration-count: infinite, infinite;
+        animation-play-state: running, running;
+}
+.boll3 .item:nth-child(1){
+    position: absolute;
+    top: 18%;
+    left: 35%;
+}
+
+.boll3 .item:nth-child(2){
+    position: absolute;
+    top: 31.5%;
+    left: 45%;
+    
+}
+.boll3 .item:nth-child(3){
+    position: absolute;
+    top: 15%;
+    left: 72.3%;
+}
+.boll3 .item:nth-child(4){
+    position: absolute;
+    top: 15%;
+    left: 79.3%;
+}
+.boll3 .item:nth-child(5){
+    position: absolute;
+    top: 25%;
+    left: 88.3%;
+}
+.boll3 .item:nth-child(6){
+    position: absolute;
+    top: 44%;
+    left: 50.3%;
+}
+.boll3 .item:nth-child(7){
+    position: absolute;
+    top: 43%;
+    left: 65%;
+}
+.boll3 .item:nth-child(8){
+    position: absolute;
+    top: 59%;
+    left: 42.3%;
+}
+.boll3 .item:nth-child(9){
+    position: absolute;
+    top: 59%;
+    left: 34.3%;
+}
+.boll3 .item:nth-child(10){
+    position: absolute;
+    top: 51.5%;
+    left: 83.3%;
+}
+/*볼효과2*/
+
+/*드래그*/
+.stop-dragging{
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+/*드래그*/
+/*비디오*/
+.jb-box{width: calc(100% - 250px); height: 33%; overflow: hidden; margin: 0px auto;
+position: absolute; left: 250px; bottom: 0;}
+.vlide{width: 100%;}
+.jb-text {position: relative; top: 50%; width: 100%;}
+.jb-text p{ margin-top: -24px; text-align: center; font-size: 40px;
+color: #fff;}
+/*비디오*/
